@@ -1,0 +1,22 @@
+Caso de Teste 1 – Recuperar Senha Esquecida
+------------------------------------------
+
+Objetivo:
+Validar o processo de recuperação de senha.
+
+Pré-condição:
+Usuário possui conta registrada no sistema.
+
+Passos (Step by Step):
+1. Acessar a página de login.
+2. Clicar em "Esqueci minha senha".
+3. Informar o e-mail cadastrado.
+4. Clicar em "Enviar".
+5. Abrir o e-mail recebido e clicar no link de redefinição.
+6. Informar nova senha e confirmar.
+7. Clicar em "Salvar".
+
+Resultado esperado:
+- O sistema exibe mensagem de sucesso.
+- Usuário consegue acessar a conta com a nova senha.
+
