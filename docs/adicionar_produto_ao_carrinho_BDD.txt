@@ -1,0 +1,10 @@
+Feature: Adicionar produto ao carrinho
+  Scenario: Usuário adiciona produto ao carrinho com sucesso
+    Given que o usuário está logado no sistema
+    And está na página inicial da loja
+    When o usuário pesquisa por "Tênis"
+    And seleciona o produto desejado
+    And clica em "Adicionar ao carrinho"
+    Then o produto aparece listado no carrinho
+    And a quantidade padrão exibida é "1"
+    And o preço total é atualizado corretamente
