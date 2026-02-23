@@ -1,0 +1,10 @@
+Feature: Recuperar senha esquecida
+  Scenario: Usuário redefine a senha com sucesso
+    Given que o usuário possui uma conta registrada
+    And está na página de login
+    When o usuário clica em "Esqueci minha senha"
+    And informa o e-mail cadastrado
+    And confirma o envio
+    Then o sistema envia um e-mail com link de redefinição
+    And o usuário consegue cadastrar uma nova senha
+    And o sistema exibe mensagem de sucesso
